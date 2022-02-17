@@ -7,11 +7,13 @@ TODO: Exception handling and unit tests
 
 #Sample Usage:
 
+```
 Usage: [path to your program] [input file path] [output file path]
     /<home directory>/app/sample.json
     /<home directory>/app/result/sortbyid.table
+```
   
-#Sample Data
+#Sample JSON File Content
 
 ```
   [
