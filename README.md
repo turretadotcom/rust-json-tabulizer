@@ -12,6 +12,14 @@ Usage: [path to your program] [input file path] [output file path]
     /<home directory>/app/sample.json
     /<home directory>/app/result/sortbyid.table
 ```
+
+For example:
+```
+json-tabulizer C:\\Users\\karldev\\Desktop\\test.txt C:\\Users\\karldev\\Desktop\\sortbytopping.table
+```
+Note: to sort the output table by a specific property, use `"sortby" + AVAILABLE_SORT_KEY`.
+
+Available sort keys are id, type, name, batter, and topping.
   
 # Sample JSON File Content
 
